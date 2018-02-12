@@ -16,3 +16,4 @@ dj-database-url = "*"
 [dev-packages]
 
 pylint = "*"
+django-rainbowtests = "*"
