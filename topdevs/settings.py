@@ -58,7 +58,9 @@ ROOT_URLCONF = 'topdevs.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            'homepage/template/homepage/'
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
